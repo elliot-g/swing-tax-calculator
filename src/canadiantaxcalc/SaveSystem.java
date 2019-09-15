@@ -67,10 +67,11 @@ class SaveSystem {
         defaultRates.add(BigDecimal.ZERO); //yt
         defaultRates.add(BigDecimal.ZERO); //nt
         defaultRates.add(BigDecimal.ZERO); //nu
-        defaultRates.add(new BigDecimal("99.95")); // 1volCOL
-        defaultRates.add(new BigDecimal("89.95")); //1volBW
-        defaultRates.add(new BigDecimal("99.95")); //3vol
-        defaultRates.add(new BigDecimal("20.99")); //looking'
+        //unused rates in this build.
+       // defaultRates.add(new BigDecimal("99.95")); 
+       // defaultRates.add(new BigDecimal("89.95")); 
+       // defaultRates.add(new BigDecimal("99.95")); 
+       // defaultRates.add(new BigDecimal("20.99"));
 
         rates.addAll(defaultRates);
 /*

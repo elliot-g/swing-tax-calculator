@@ -1,5 +1,5 @@
 # Tax Calculator
-A simple tax calculator utility for adding or removing canadian tax. This project was the result of experimentation using the Netbeans GUI Form editor and the GroupLayout class. Not fully commented or documented for now. Later this project might be cleaned up, fixed, and re-designed (the GUI). For now it remains a fully functional calculator.
+A simple tax calculator utility for adding or removing Canadian tax. This project was the result of experimentation using the Netbeans GUI Form editor and the GroupLayout class. Not fully commented or documented for now. Later this project might be cleaned up, fixed, and re-designed (the GUI). For now it remains a fully functional calculator.
 
 
 

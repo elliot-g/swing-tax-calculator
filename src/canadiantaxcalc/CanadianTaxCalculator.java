@@ -2,6 +2,10 @@ import javax.swing.JFrame;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
+/*
+* TODO change GUI, comment and document project, and clean build. 
+* (Requires rebuilding from the ground up). This build is functional however.
+*/
 class CanadianTaxCalculator {
 
     public static void main(String[] args) {

@@ -21,6 +21,7 @@ class ContentHub {
             }
         }
         TaxCalculator taxCalculator = new TaxCalculator(saveSystem);
+        //THE SHIPPING CALC FUNCTIONALITY IS NOT PRESENT IN THIS BUILD
        // ShippingCalculator shippingCalculator = new ShippingCalculator(saveSystem);
         RateChanger rateChanger = new RateChanger(saveSystem);
 

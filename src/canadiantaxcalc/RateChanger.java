@@ -163,9 +163,7 @@ class RateChanger {
         ratesComboBox.setModel(new DefaultComboBoxModel<>(new String[]{"GST", "British Columbia PST",
                 "Alberta PST", "Saskatchewan PST", "Manitoba PST", "Ontario PST",
                 "Quebec PST", "New Brunswick PST", "Nova Scotia PST", "P.E.I PST",
-                "Newfoundland PST", "Yukon PST", "Northwest PST", "Nunavut PST",
-                "One Volume Colour", "One Volume B&W", "Three Volume Set",
-                "Looking At Ourselves"}));
+                "Newfoundland PST", "Yukon PST", "Northwest PST", "Nunavut PST"}));
 
         newRateField.setText(rateSystem.getGST().toString());
 
@@ -191,10 +189,6 @@ class RateChanger {
                         {"Yukon PST", null},
                         {"Northwest PST", null},
                         {"Nunavut PST", null},
-                        {"One Volume Colour", null},
-                        {"One Volume B&W", null},
-                        {"Three Volume Set", null},
-                        {"Looking At Ourselves", null},
                 }, new String[]{
                 "Item", "Rate"
         }));

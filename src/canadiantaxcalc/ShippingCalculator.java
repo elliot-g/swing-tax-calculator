@@ -17,8 +17,9 @@ import static javax.swing.GroupLayout.Alignment;
 import static javax.swing.GroupLayout.DEFAULT_SIZE;
 import static javax.swing.GroupLayout.PREFERRED_SIZE;
 
-//94:50
-
+/*
+* Unused class from a different build.
+*/
 class ShippingCalculator {
     private JPanel mainPanel = new JPanel();
     private GroupLayout generalLayout = new GroupLayout(mainPanel);
@@ -171,10 +172,10 @@ class ShippingCalculator {
         }
 
         try {
-            books[0].setIcon(new ImageIcon(this.getClass().getResource("body-moveable-1vol-bw.png")));
-            books[1].setIcon(new ImageIcon(this.getClass().getResource("body-moveable-1vol-colour.png")));
-            books[2].setIcon(new ImageIcon(this.getClass().getResource("body-moveable-3vol-bw.png")));
-            books[3].setIcon(new ImageIcon(this.getClass().getResource("looking-at-ourselves-colour.jpg")));
+            books[0].setIcon(new ImageIcon(this.getClass().getResource("bm1b.png")));
+            books[1].setIcon(new ImageIcon(this.getClass().getResource("bm1c.png")));
+            books[2].setIcon(new ImageIcon(this.getClass().getResource("bm3b.png")));
+            books[3].setIcon(new ImageIcon(this.getClass().getResource("laoc.jpg")));
         } catch (NullPointerException e) {
             JOptionPane.showMessageDialog(mainPanel, "Unable to Load Images...", CalculatorConstants.ERROR_DIALOG_TITLE, JOptionPane.ERROR_MESSAGE);
         }

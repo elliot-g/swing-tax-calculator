@@ -15,10 +15,10 @@ A simple tax calculator utility for adding or removing canadian tax. This projec
       ```
   - Manually running the class files within the JAR:
       ```
-      java -cp <path to JAR>/CanadianTaxCalculator.jar canadiantaxcalc.CanadianTaxCalculator 
+      java -cp <path to JAR>/CanadianTaxCalculator.jar CanadianTaxCalculator 
       ```
   - Extracting the JAR, and then compiling and  running the source files within extracted folders:
       ```
-      javac <path to src folder>/canadiantaxcalc/*.java
-      java -cp . canadiantaxcalc.CanadianTaxCalculator 
+      javac <path to src folder>/*.java
+      java CanadianTaxCalculator 
       ```
